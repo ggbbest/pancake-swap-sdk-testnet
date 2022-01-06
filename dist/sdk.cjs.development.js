@@ -20,7 +20,7 @@ var IPancakePair = _interopDefault(require('@pancakeswap-libs/pancake-swap-core/
 var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 56] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 21004] = "MAINNET";
   ChainId[ChainId["TESTNET"] = 97] = "TESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
@@ -35,8 +35,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x46E9aD48575d08072E9A05a9BDE4F22973628A8E';
-var INIT_CODE_HASH = '0xfc65440d009dec7c2a9e2707cff95a0ff3bb14653698c4a01003000aa6d1f54a';
+var FACTORY_ADDRESS = '0xFf9Ba134094963a84816584d03066f68d8D25b27';
+var INIT_CODE_HASH = '0x4e66585895cd1291afb79a761768b306cb3199d014c5ccc8babed13ebd61d0b3';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
